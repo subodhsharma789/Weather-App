@@ -1,0 +1,60 @@
+.custImg{
+    height: 25px;
+    width: 25px;
+}
+
+ion-content {
+  
+    .weather-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  
+      ion-icon {
+        font-size: 5rem;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        margin-top: 16px;
+      }
+  
+      button {
+        margin-top: 16px;
+        background-color: #ff9900; 
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+  
+      button:hover {
+        background-color: #ff6600; 
+      }
+    }
+  }
+  ion-button{
+    margin-left: 12px;
+  }
+  ion-card{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,198,45,1) 100%); 
+  }
+  ion-toolbar{
+    --background: rgba(253,198,45,1);
+}
+ion-input{
+  padding-left: 5px;
+  margin: 0px !important;
+  --background: rgba(253,198,45,1);
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid rgba(34,193,195,1);
+}
+ion-content{
+  --ion-background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,198,45,1) 100%);
+}
+  

@@ -1,0 +1,36 @@
+ion-content {
+  background-color: #f2f2f2; 
+
+  ion-card {
+    margin: 16px;
+    ion-card-header {
+      background-color: #0088cc;
+      color: white;
+      font-weight: bold;
+    }
+
+    ion-card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      ion-icon {
+        font-size: 3rem;
+        color: #0088cc; 
+      }
+
+      p {
+        margin-top: 12px;
+      }
+    }
+  }
+}
+ion-card{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,198,45,1) 100%); 
+}
+ion-toolbar {
+  --background: rgba(253,198,45,1);
+}
+ion-content{
+  --ion-background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,198,45,1) 100%);
+}
